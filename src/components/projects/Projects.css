@@ -1,0 +1,41 @@
+.projects-container {
+    min-height: 100vh;
+}
+
+.projects-container h2 {
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.project {
+    background-image: url(./vr.png);
+    width: 350px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.project h3 {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    height: 50px;
+    padding-top: 7px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 400;
+    visibility: hidden;
+}
+
+.project div {
+    background-color: rgb(88, 86, 84);
+    opacity: 0.7;
+    height: 170px;
+    visibility: hidden;
+}
+

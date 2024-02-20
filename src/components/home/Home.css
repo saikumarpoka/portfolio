@@ -1,0 +1,74 @@
+
+
+.background {
+    color: rgba(225, 229, 231, 0.91);
+    height: 100vh;
+    text-align: center;
+    background: url(./night-mountain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0,0,0,0.4);
+    border-image: fill 0 linear-gradient(#0010, #0008);
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+#intro .name {
+    font-size: 60px;
+    font-weight: 350;
+    letter-spacing: 1px;
+    animation: fadeInDown 02s ease;
+    margin-bottom: 25px;
+}
+
+#intro .occupation {
+    font-size: 20px;
+    animation: fadeInUp 02s ease;
+}
+
+.fa-angle-down {
+    font-size: 50px;
+    color: #aaa;
+    animation: fadeInOut 02s ease;
+    margin-top: 175px;
+    padding: 10px 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fa-angle-down:hover {
+    color: white;
+}
