@@ -2,22 +2,93 @@
     min-height: 100vh;
 }
 
-.projects-container h2 {
+.projects-container h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+
+.project1 p,
+.project2 p,
+.project3 p,
+.project4 p {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.project1 p {
+    background-image: url(./vr.png);
+}
+.project2 p {
+    background-image: url(./todo.png);
+}
+.project3 p {
+    background-image: url(./guess-number.png);
+}
+.project4 p {
+    background-image: url(./drum-kit.png);
+}
+
+
+.project1 p:hover {
+    opacity: 0.5;
+}
+.project2 p:hover {
+    opacity: 0.5;
+}
+.project3 p:hover {
+    opacity: 0.5;
+}
+.project4 p:hover {
+    opacity: 0.5;
+}
+
+.project1 h2,
+.project2 h2,
+.project3 h2,
+.project4 h2 {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 23, 156);
+    height: 50px;
+    color: rgb(251, 249, 249);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+
+/* .projects-container h2 {
     letter-spacing: 1px;
     font-weight: 300;
     margin-top: 50px;
     text-align: center;
-}
+} */
 
-.project {
+/* .project-card {
+    margin: 30px;
+    background-image: url(./vr.png);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: fit-content;
+} */
+
+/* .project {
     background-image: url(./vr.png);
     width: 350px;
     height: 220px;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
 .project h3 {
@@ -26,7 +97,7 @@
     background-color: blue;
     height: 50px;
     padding-top: 7px;
-    margin-bottom: 0px;
+    margin: 0px;
     font-size: 25px;
     font-weight: 400;
     visibility: hidden;
@@ -37,5 +108,26 @@
     opacity: 0.7;
     height: 170px;
     visibility: hidden;
+} */
+
+/* .project {
+    background-image: url(./vr.png);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    margin: 15px;
 }
+
+.project-shadow {
+    background-color: rgb(127, 121, 121);
+    height: 200px;
+    opacity: 0.7;
+    margin-right: 0px;
+}
+
+.project-name {
+    color: aliceblue;
+    text-align: center;
+} */
 

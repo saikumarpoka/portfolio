@@ -4,7 +4,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin-right: 15px;
     margin-left: 15px;
     color: rgb(95, 99, 99);

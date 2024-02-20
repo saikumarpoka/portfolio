@@ -11,23 +11,23 @@ const Experience = () => {
 
   const styles = {
     html: {
-     width: "125px",
+     maxWidth: "125px",
      imgSrc: {html5}
     },
     css: {
-      width:'90px'
+      maxWidth:'90px'
     },
     js: {
-      width:'95px'
+      maxWidth:'95px'
     },
     python: {
-      width:'120px', height:'120px'
+      maxWidth:'120px', height:'120px'
     },
     bootstrap: {
-      width:'110px'
+      maxWidth:'110px'
     },
     react: {
-      height:'110px', width:'125px'
+      height:'110px', maxWidth:'125px'
     }
   }
 
