@@ -29,8 +29,13 @@ const Contact = () => {
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </div>
+            <div className="icon">
+              <a href="https://github.com/saikumarpoka">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
           </div>
-          <div className="to-top" style={{textAlign:'center'}}>
+          <div className="to-top" style={{ textAlign: "center" }}>
             <a
               href="#intro"
               className="arrow-up"
@@ -41,6 +46,9 @@ const Contact = () => {
             </a>
             <p id="para" style={{ opacity: "0" }}>
               To Top!
+            </p>
+            <p>
+              Email: venkatasaikumar.poka@gmail.com || Mobile: +91 8519921096
             </p>
             <div>
               <p>

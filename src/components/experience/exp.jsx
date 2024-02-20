@@ -12,7 +12,6 @@ const Experience = () => {
   const styles = {
     html: {
      maxWidth: "125px",
-     imgSrc: {html5}
     },
     css: {
       maxWidth:'90px'
@@ -42,7 +41,7 @@ const Experience = () => {
         </p>
         <div className="skill-container mx-auto">
           <div className="row">
-            <h3>SOME TECHNOLOGIES I'M FAMILIAR WITH:</h3>
+            <h3 className="mx-auto">SOME TECHNOLOGIES I'M FAMILIAR WITH:</h3>
             <IconContainer imgSrc ={html5} title="HTML5" styling = {styles.html}/>
             <IconContainer imgSrc ={css3} title="css3" styling = {styles.css}/>
             <IconContainer imgSrc ={js} title="javascript" styling = {styles.js}/>
@@ -60,7 +59,7 @@ const IconContainer = ({imgSrc, styling, title}) => {
 
   return (
     <>
-      <div className="col-4">
+      <div className="col-6 col-md-4">
         <img src={imgSrc} alt={title} style={styling}></img>
       </div>
     </>

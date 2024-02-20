@@ -31,7 +31,7 @@ const Navbar = () => {
             <a href="#exp">Experience</a>
           </li>
           <li>
-            <a href="#exp">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <a href="#exp" onClick={toggleMenu}>Experience</a>
             </li>
             <li>
-              <a href="/" onClick={toggleMenu}>Projects</a>
+              <a href="#projects" onClick={toggleMenu}>Projects</a>
             </li>
             <li>
               <a href="#contact" onClick={toggleMenu}>Contact</a>

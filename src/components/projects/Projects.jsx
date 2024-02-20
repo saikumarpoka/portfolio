@@ -10,19 +10,30 @@ const Projects = () => {
             <h1>My Projects</h1>
             <div className="project1 col-12 col-md-6 col-lg-4 mb-3 p-5 p-md-3">
               <p></p>
-              <h2>Virtual Reality</h2>
+              <a style={{ textDecoration: "none" }} href="https://github.com/saikumarpoka/vr">
+                <h2>Virtual Reality</h2>
+              </a>
             </div>
             <div className="project2 col-12 col-md-6 col-lg-4 mb-3 p-5 p-md-3">
               <p></p>
-              <h2>Todo</h2>
+              <a style={{ textDecoration: "none" }} href="https://github.com/saikumarpoka/Todo">
+                <h2>Todo</h2>
+              </a>
             </div>
             <div className="project3 col-12 col-md-6 col-lg-4 mb-3 p-5 p-md-3">
               <p></p>
-              <h2>Guess Number</h2>
+              <a style={{ textDecoration: "none" }} href="https://github.com/saikumarpoka/Guess-Number">
+                <h2>Guess Number</h2>
+              </a>
             </div>
             <div className="project4 col-12 col-md-6 col-lg-4 mb-3 p-5 p-md-3">
               <p></p>
-              <h2>Drum Kit</h2>
+              <a
+                href="https://github.com/saikumarpoka/drum-kit"
+                style={{ textDecoration: "none" }}
+              >
+                <h2>Drum Kit</h2>
+              </a>
             </div>
           </div>
         </div>
