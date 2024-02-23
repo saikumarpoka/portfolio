@@ -5,14 +5,14 @@ import myImage from "./myphoto.jpg";
 const About = () => {
   return (
     <>
-      <div className="about-container"  id="about">
+      <div className="about-container" id="about">
         <h1>A LITTLE BIT ABOUT ME</h1>
         <img src={myImage} alt="aboutimg" />
         <p>
-          Hey! My name is Sai Kumar and I'm learning{" "}
-          <strong>web development</strong> with a passion for{" "}
-          <strong>front end</strong> development. I'm an M.Sc. graduate in the
-          stream of Mathematics from{" "}
+          Hello there! I am Sai Kumar, a dedicated learner of{" "}
+          <strong>web development</strong> with a strong inclination towards{" "}
+          <strong>front end</strong> development. I hold a postgraduate degree
+          in Mathematics from{" "}
           <strong>
             <a
               style={{ textDecoration: "none" }}
@@ -21,11 +21,10 @@ const About = () => {
               Andhra University
             </a>
           </strong>
-          . I aspire toward a career that will allow me to channel my
-          knowledge through crafting web applications, also provides an
-          opportunity to learn new skills and engaging experiences.
+          . My ultimate goal is to pursue a career where I can utilize my
+          expertise in creating web applications, while also continuously
+          expanding my skill set and engaging in enriching experiences.
         </p>
-        
       </div>
     </>
   );
