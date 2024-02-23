@@ -28,7 +28,7 @@
     
 }
 
-.nav-container button {
+/* .nav-container button {
     color: #fff;
     background-color: #5a5858;
     height: auto;
@@ -44,7 +44,7 @@
 .nav-container button:hover, .mobile-menu button:hover {
     background-color: rgb(8, 8, 123);
     border: 2px solid rgb(8, 8, 123);
-}
+} */
 
 .nav-container li a:hover, .mobile-menu li a:hover {
     background-color: rgb(80, 80, 84);

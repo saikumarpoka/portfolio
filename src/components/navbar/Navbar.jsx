@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="nav-container" style={{position:'sticky'}}>
+      <div className="nav-container" style={{ position: "sticky" }}>
         <div>
           <h2
             style={{
@@ -36,7 +36,11 @@ const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <button>Resume</button>
+          <li>
+            <a href="#resume" onClick={toggleMenu}>
+              Resume
+            </a>
+          </li>
         </ul>
         <div className="menu-icon d-md-none">
           <i className="fa-solid fa-bars fa-xl" onClick={toggleMenu}></i>
@@ -46,18 +50,30 @@ const Navbar = () => {
         <div className="mobile-menu d-md-none">
           <ul className="menu-list">
             <li>
-              <a href="#about" onClick={toggleMenu}>About</a>
+              <a href="#about" onClick={toggleMenu}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#exp" onClick={toggleMenu}>Experience</a>
+              <a href="#exp" onClick={toggleMenu}>
+                Experience
+              </a>
             </li>
             <li>
-              <a href="#projects" onClick={toggleMenu}>Projects</a>
+              <a href="#projects" onClick={toggleMenu}>
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#contact" onClick={toggleMenu}>Contact</a>
+              <a href="#contact" onClick={toggleMenu}>
+                Contact
+              </a>
             </li>
-            <button>Resume</button>
+            <li>
+              <a href="#resume" onClick={toggleMenu}>
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>
