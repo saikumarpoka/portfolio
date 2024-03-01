@@ -35,7 +35,7 @@ const Experience = () => {
       <div id="exp" className="exp-container my-5 my-md-none">
         <h1>Experience</h1>
         <p>
-          I've been learning web developmment for about 4 months now, and I'm
+          I've been learning web developmment with a passion, and I'm
           always eager to
           <br /> learn more in this fast paced industry.
         </p>
